@@ -71,19 +71,19 @@
                     </div>
                     <div class="row">
                         <div class="col">
-                             <?php echo $
+                             <?php echo $info->getNome();?>
                         </div>
                         <div class="col">
-                            Telefone
+                            <?php echo $info->getTelefone();?>
                         </div>
                         <div class="col">
-                            Origem
+                            <?php echo $info->getOrigem();?>
                         </div>
                         <div class="col">
-                            Data do contato
+                            <?php echo $info->getDatacont();?>
                         </div>
                         <div class="col">
-                            Observação
+                            <?php echo $info->getObs();?>
                         </div>
                     </div>
                 </div>
