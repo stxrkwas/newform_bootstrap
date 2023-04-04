@@ -62,6 +62,29 @@
                         <div class="col">
                             Origem
                         </div>
+                        <div class="col">
+                            Data do contato
+                        </div>
+                        <div class="col">
+                            Observação
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                             <?php echo $
+                        </div>
+                        <div class="col">
+                            Telefone
+                        </div>
+                        <div class="col">
+                            Origem
+                        </div>
+                        <div class="col">
+                            Data do contato
+                        </div>
+                        <div class="col">
+                            Observação
+                        </div>
                     </div>
                 </div>
 
