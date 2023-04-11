@@ -24,20 +24,20 @@ require_once("index.class.php");
     <title>BootStrap</title>
 
     <style>
-    table {
-        border-collapse: collapse;
-        width: 100%;
-    }
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
 
-    th,td {
-        text-align: center;
-        padding: 10px;
-        vertical-align: middle;
-    }
+        th,td {
+            text-align: center;
+            padding: 10px;
+            vertical-align: middle;
+        }
 
-    input,textarea {
-        font-weight: normal;
-    }
+        input,textarea {
+            font-weight: normal;
+         }
     </style>
 </head>
 <body class="bg-body-tertiary">
@@ -84,20 +84,14 @@ require_once("index.class.php");
             </div>
             <div class="col bg-white d-flex justify-content-center">
                 <div><br>
-                    <h3 class="text-center fs-5">Consultar - Contatos Agendados</h3>
+                    <h3 class="text-start fs-5">Consultar - Contatos Agendados</h3>
                     <table width = "50%" border="0" cellpadding="10" cellspacing="1" align="center" class="mb-3">
                         <tr bgcolor="007BFF">
-                            &nbsp;
                             <th>Nome</th>
-                            &nbsp;
                             <th>Telefone</th>
-                            &nbsp;
                             <th>Origem</th>
-                            &nbsp;
                             <th>Contato</th>
-                            &nbsp;
                             <th>Observação</th>
-                            &nbsp;
                         </tr>
                         <tr bgcolor="white">
                             <td><?php echo $Form->getNome();?></td>
