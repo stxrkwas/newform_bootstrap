@@ -40,8 +40,8 @@ require_once("index.class.php");
          }
     </style>
 </head>
-<body class="bg-body-tertiary">
-    <div class="container text-center bg-body-tertiary">
+<body class="bg-body-secondary">
+    <div class="container text-center bg-body-secodary">
         <div class="row">
             <div class="col-1">
                 &nbsp;

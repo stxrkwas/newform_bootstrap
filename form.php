@@ -9,7 +9,7 @@
     <title>BootStrap</title>
 </head>
 <body class="bg-body-secondary">
-    <div class="container text-center bg-body-tertiary">
+    <div class="container text-center bg-body-secondary">
         <div class="row">
             <div class="col-1">
                 &nbsp;
