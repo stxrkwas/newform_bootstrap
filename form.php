@@ -23,9 +23,9 @@
                         </button>
                         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                             <div class="navbar-nav">
-                                <a class="nav-link active" aria-current="page" href="#">Cadastrar</a>
+                                <a class="nav-link active" aria-current="page" href="form.php">Cadastrar</a>
                                 &nbsp;
-                                <a class="nav-link" href="#">Consultar</a>
+                                <a class="nav-link" href="saida.php">Consultar</a>
                             </div>
                         </div>
                     </div>
@@ -57,15 +57,15 @@
                     <form method= "POST" action= "saida.php">
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Nome:</label>
-                            <input type="text" class="form-control" id="nome" name="nome" aria-describedby="emailHelp">
+                            <input class="form-control" id="Nome" name="Nome" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Telefone:</label>
-                            <input type="tel" class="form-control" id="telefone" name="telefone" placeholder="(xx) xxxxx-xxxx" aria-describedby="emailHelp">
+                            <input type="tel" class="form-control" id="Telefone" name="Telefone" placeholder="(xx) xxxxx-xxxx" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Origem:</label>
-                            <select class="form-select" id="origem" name="origem" aria-label="Default select example">
+                            <select class="form-select" id="Origem" name="Origem" aria-label="Default select example">
                                 <option selected>Celular</option>
                                 <option value="1">Whatsapp</option>
                                 <option value="2">Telefone Fixo</option>
@@ -73,11 +73,11 @@
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Data do Contato:</label>
-                            <input type="date" class="form-control" id="datacont" name="datacont" placeholder="dd/mm/aaaa" aria-describedby="emailHelp">
+                            <input type="date" class="form-control" id="Datacont" name="Datacont" placeholder="dd/mm/aaaa" aria-describedby="emailHelp">
                         </div>
                         <div class="mb-3 text-start">
                             <label for="exampleInputEmail1" class="form-label">Observação:</label>
-                            <textarea class="form-control" placeholder="" id="obs" name="obs" style="height: 100px"></textarea>
+                            <textarea class="form-control" placeholder="" id="Obs" name="Obs" style="height: 100px"></textarea>
                         </div>
                         <div class="mb-3 text-start">
                             <input type="submit">
